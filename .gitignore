@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Local runs and account-level derived data: NOT for the public repository
+/runs/
+/figures/
+features_*.csv
+features_*_stats.json
+oof_*.npz
+*.npz
+
+# Cresci-2017 data and archives: never commit
+data_raw/
+data/
+datasets_full.csv*
+*.csv.zip
+*.zip
+READ.ME
+
+# Logs, temporary files, backups
+*.log
+*.tmp
+*.bak
+*~
+
+# Secrets / environment files
+.env
+.env.*
+*.pem
+*.key
+secrets*
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

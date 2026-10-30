@@ -1,0 +1,11 @@
+# Versions taken from the authors' environment of the reported runs (Python 3.12.13).
+# numpy, pandas, scikit-learn, scipy: recorded in results/*/run_config.json.
+# joblib, matplotlib, pytest: read from the same environment when this release was prepared (not recorded inside the run records).
+# Availability of these exact versions on PyPI was not checked.
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+matplotlib==3.11.2
+pytest==9.1.1

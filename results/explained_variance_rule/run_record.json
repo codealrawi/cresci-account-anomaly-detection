@@ -1,0 +1,21 @@
+{
+ "stage": "43",
+ "n_draws": 10,
+ "n_repeats": 10,
+ "folds": 5,
+ "seed0": 20261021,
+ "q": 95.0,
+ "explained_variance_rule": 0.9,
+ "variant": "raw (z-score only)",
+ "features": "<path to features CSV; removed from the public copy>",
+ "versions": {
+  "python": "3.12.13",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1"
+ },
+ "elapsed_s": 1.4218344688415527,
+ "n_fold_rows": 500,
+ "n_unit_rows": 100
+}
